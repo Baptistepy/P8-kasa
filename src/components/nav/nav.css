@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+    img {
+        width: 100px;
+    }
+
+    ul {
+        display: flex;
+        gap: 10px;
+        text-transform: uppercase;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        margin: 40px;
+
+        ul {
+            text-transform: capitalize;
+        }
+    }
+}
