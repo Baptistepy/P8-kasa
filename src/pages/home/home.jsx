@@ -10,7 +10,7 @@ import './home.css'
 
 function Home() {
   return (
-    <main>
+    <main id="home">
 
       <Banner
         src={img}
