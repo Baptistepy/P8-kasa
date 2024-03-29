@@ -1,29 +1,4 @@
 {
-  "about": "Des forêts entourées de montagnes",
-  "brand": "Kasa",
-  "carousel": "Photo #",
-  "code": "404",
-  "error": "Oups! La page que vous demandez n'existe pas.",
-  "copyright": "All rights reserved",
-  "home": "Des falaises en bord de mer",
-  "link": "Retourner sur la page d’accueil",
-  "list": "Équipements",
-  "logo": "Logo Kasa",
-  "text": "Description",
-  "title": "Chez vous, partout et ailleurs",
-  "year": "2020",
-
-  "nav": [
-    {
-      "link": "/",
-      "content": "Accueil"
-    },
-    {
-      "link": "/about",
-      "content": "A propos"
-    }
-  ],
-
   "collapse": [
     {
       "title": "Fiabilité",
