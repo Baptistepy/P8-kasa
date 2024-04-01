@@ -15,7 +15,7 @@ function Home() {
       <Banner
         src={img}
         alt={data.home}
-        title={data.title}
+        title={"Chez vous, partout et ailleurs"}
       />
 
       <ul>
