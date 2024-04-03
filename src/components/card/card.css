@@ -15,7 +15,7 @@
     border-radius: 0 0 var(--radius-md) var(--radius-md);
     padding: 10px;
     width: calc(100% - 20px);
-    background-color: var(--filter);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
     color: var(--white);
   }
 }
