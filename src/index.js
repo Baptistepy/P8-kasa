@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from            './pages/home/home';
 import Housing from         './pages/housing/housing';
-import About from           './pages/about/about';
+//import About from         './pages/about/about';
 import Error from           './pages/error/error';
 
 import Nav from             './components/nav/nav';
@@ -24,7 +24,7 @@ root.render(
 
         <Route path="/"               element={<Home />} />
         <Route path="/housing/:id"    element={<Housing />} />
-        <Route path="/About"          element={<About />} />
+        {/*<Route path="/About"          element={<About />} />*/}
         <Route path="*"               element={<Error />} />
 
       </Routes>

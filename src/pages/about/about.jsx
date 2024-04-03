@@ -1,13 +1,12 @@
+<<<<<<< HEAD
 
 
 import './about.css'
 
-function About() {
-  return (
-    <div>
-      <h1>About</h1>
-    </div>
-  )
+const About = () => {
+  
 }
 
 export default About
+=======
+>>>>>>> parent of 63a890b (collapse and about const created)
