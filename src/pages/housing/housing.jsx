@@ -15,5 +15,10 @@ const Housing = () => {
 
   if (!card) return <Error />;
 
+  return (
+    <main id="housing">
+      <h1>{card.title}</h1>
+    </main>
+  );
 }
 export default Housing
