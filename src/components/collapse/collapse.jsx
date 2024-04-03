@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import data from '../../assets/data.json';
 import './collapse.css';
 

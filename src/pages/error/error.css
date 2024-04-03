@@ -1,0 +1,19 @@
+[id="error"] {
+  text-align: center;
+  color: var(--primary);
+
+  h1 {
+    font-size: 12rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  a {
+    display: block;
+    margin: 100px;
+    text-decoration: underline;
+    color: var(--black);
+  }
+}
