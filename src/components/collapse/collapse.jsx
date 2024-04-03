@@ -12,7 +12,7 @@ const Collapse = ({ title, content }) => {
       <header onClick={toggleCollapse}>
         <h2>{title}</h2>
         <i
-          className={`fa-solid ${isOpen ? 'fa-chevron-down rotate' : 'fa-chevron-up'} fa-lg`}
+          className={`fa-solid ${isOpen ? 'fa-chevron-down animation' : 'fa-chevron-up'} fa-lg`}
         ></i>
       </header>
 

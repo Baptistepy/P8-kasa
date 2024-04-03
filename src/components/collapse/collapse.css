@@ -1,0 +1,23 @@
+.collapse {
+
+  h2 {
+    border: 2px var(--primary) solid; 
+    border-radius: var(--radius-sm);
+    color: white;
+    background-color: var(--primary);
+    padding: 4px 4px 6px 8px;
+  }
+
+  ul {
+    display: flex;
+    text-align: justify;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .collapse {
+    margin: var(--margin-md);
+  }
+}
