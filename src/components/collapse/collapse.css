@@ -1,3 +1,15 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(-200px);
+  }
+}
+
 .collapse {
 
   h2 {
@@ -11,9 +23,20 @@
   ul {
     display: flex;
     text-align: justify;
+    overflow: hidden;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
-}
+  
+  .animation {
+    animation: rotate 1s ease-in-out;
+  }
 
+  .translate {
+    animation: translate 1s ease-in-out;
+  }
+
+}
 
 @media (min-width: 768px) {
 

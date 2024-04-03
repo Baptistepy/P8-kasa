@@ -6,6 +6,9 @@ import Home from            './pages/home/home';
 import Housing from         './pages/housing/housing';
 import About from         './pages/about/about';
 import Error from           './pages/error/error';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 
 import Nav from             './components/nav/nav';
 import Footer from          './components/footer/footer';
@@ -15,6 +18,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+library.add(faChevronUp, faChevronDown);
 root.render(
   
   <React.StrictMode>

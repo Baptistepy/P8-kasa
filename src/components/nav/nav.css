@@ -12,6 +12,7 @@ nav {
         display: flex;
         gap: 10px;
         text-transform: uppercase;
+
     }
 
     a:hover,
@@ -25,6 +26,8 @@ nav {
         margin: 40px;
 
         ul {
+            font-size: large;
+            gap: 20px;
             text-transform: capitalize;
         }
     }
