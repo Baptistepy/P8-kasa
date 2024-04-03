@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import data from '../../assets/data.json';
 import './collapse.css';
 
 const Collapse = ({ title, content }) => {
@@ -6,8 +8,32 @@ const Collapse = ({ title, content }) => {
 
   return (
     <section className="collapse">
-      <h2 onClick={toggleCollapse}>{title}</h2>
-      {isOpen && <p>{content}</p>}
+
+      <header onClick={toggleCollapse}>
+        <h2>{title}</h2>
+        <i
+          className={`fa-solid ${isOpen ? 'fa-chevron-down rotate' : 'fa-chevron-up'} fa-lg`}
+        ></i>
+      </header>
+
+      {isOpen && (title === data.list ? (
+        <ul>
+          {content.map((item, index) => (
+            <li
+              key={index}
+              className={`${isOpen ? 'translate' : ''}`}>
+              {item}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <ul>
+          <li className={`${isOpen ? 'translate' : ''}`}>
+            {content}
+          </li>
+        </ul>
+
+      ))}
     </section>
   )
 }
