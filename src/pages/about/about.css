@@ -1,0 +1,8 @@
+
+[id="about"] {
+  margin: var(--margin-sm);
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
