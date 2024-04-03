@@ -16,4 +16,10 @@
     text-decoration: underline;
     color: var(--black);
   }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 16rem;
+    }
+  }
 }
