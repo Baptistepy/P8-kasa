@@ -1,7 +1,9 @@
 import { useParams } from "react-router-dom";
-import data from "../../assets/data.json";
 
+import data from "../../assets/data.json";
 import Error from "../error/error";
+
+import Carousel from "../../components/carousel/carousel";
 import "./housing.css";
 
 
@@ -17,6 +19,11 @@ const Housing = () => {
 
   return (
     <main id="housing">
+
+      <Carousel
+        pictures={card.pictures}
+        alt={card.title}
+      />
       <h1>{card.title}</h1>
     </main>
   );
