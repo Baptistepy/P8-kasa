@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import data from '../../assets/data.json';
 import './collapse.css';
 

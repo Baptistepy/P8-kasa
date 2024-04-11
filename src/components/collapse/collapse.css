@@ -12,11 +12,20 @@
 
 .collapse {
 
-  h2 {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 2px var(--primary) solid; 
     border-radius: var(--radius-sm);
-    color: white;
     background-color: var(--primary);
+    height: 50px;
+    margin-top: var(--margin-sm);
+    padding-right: 15px;
+  }
+
+  h2 {
+    color: white;
     padding: 4px 4px 6px 8px;
   }
 
@@ -36,6 +45,10 @@
     animation: translate 1s ease-in-out;
   }
 
+}
+
+.fa-chevron-up {
+  color: white;
 }
 
 @media (min-width: 768px) {
