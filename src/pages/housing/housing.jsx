@@ -24,7 +24,16 @@ const Housing = () => {
         pictures={card.pictures}
         alt={card.title}
       />
-      <h1>{card.title}</h1>
+      <section>
+        <header>
+          <h1>{card.title}</h1>
+          <p>{card.location}</p>
+
+          <ul>
+        
+          </ul>
+        </header>
+      </section>
     </main>
   );
 }
