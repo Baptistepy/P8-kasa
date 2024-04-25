@@ -42,7 +42,7 @@ const Housing = () => {
             )}
           </ul>
         </header>
-        
+
         <figure>
           <Rating rating={card.rating} />
 
@@ -53,7 +53,7 @@ const Housing = () => {
         </figure>
       </section>
       
-      <section>
+      <section className="collapse-container">
         <Collapse
           content={card.description}
         />

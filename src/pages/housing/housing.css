@@ -38,4 +38,26 @@
       align-items: flex-end;
     }
   }
+
+  @media (min-width: 768px) {
+    margin: var(--margin-sm) var(--margin-lg);
+
+    & > section {
+      flex-flow: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    header {
+      & + figure {
+        flex-flow: column-reverse;
+      }
+    }
+
+    & > .collapse-container {
+      display: flex;
+      gap: 60px;
+      background-color: white;
+    }
+  }
 }
