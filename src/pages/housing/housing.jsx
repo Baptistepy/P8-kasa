@@ -53,16 +53,18 @@ const Housing = () => {
         </figure>
       </section>
       
-      <section className="collapse-container">
+      <footer>
         <Collapse
-          content={card.description}
+          title={data.text}
+          content={data.description}
         />
 
         <Collapse
           title={data.list}
-          content={card.equipments}
+          content={data.equipments}
         />
-      </section>
+      </footer>
+
     </main>
   );
 }

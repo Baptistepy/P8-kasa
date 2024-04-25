@@ -54,10 +54,11 @@
       }
     }
 
-    & > .collapse-container {
+    & > footer {
       display: flex;
-      gap: 60px;
+      gap: 20px;
       background-color: white;
+      padding: 0;
     }
   }
 }
