@@ -1,0 +1,65 @@
+.carousel {
+  position: relative;
+  color: var(--white);
+
+  img {
+    border-radius: var(--radius-md);
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  nav > * {
+    position: absolute;
+  }
+
+  i {
+    font-size: 1.5rem;
+  }
+
+  [class*="fa-chevron-"] {
+    top: calc(50% - 12px);
+    cursor: pointer;
+  }
+
+  .fa-chevron-left {
+    left: 10px;
+  }
+
+  .fa-chevron-right {
+    right: 10px;
+  }
+
+  b {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    img {
+      border-radius: var(--radius-lg);
+      height: 415px;
+    }
+
+    i {
+      font-size: 5rem;
+    }
+
+    [class*="fa-chevron-"] {
+      top: calc(50% - 40px);
+    }
+
+    .fa-chevron-left {
+      left: 10px;
+    }
+
+    .fa-chevron-right {
+      right: 10px;
+    }
+
+    b {
+      display: block;
+      bottom: 20px;
+      left: calc(50% - 12px);
+    }
+  }
+}
