@@ -1,0 +1,19 @@
+.host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  figcaption {
+    color: var(--primary);
+    text-align: right;
+  }
+
+  img {
+    border-radius: 50%;
+    height: 35px;
+
+    @media (min-width: 768px) {
+      height: 65px;
+    }
+  }
+}

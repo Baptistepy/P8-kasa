@@ -1,0 +1,19 @@
+.rating {
+  display: flex;
+  gap: 10px;
+  margin: var(--margin-tn) 0;
+
+  .primary {
+    color: var(--primary);
+  }
+
+  .secondary {
+    color: var(--secondary);
+  }
+
+  @media (min-width: 768px) {
+    i {
+      font-size: 2rem;
+    }
+  }
+}
