@@ -25,7 +25,6 @@ const Carousel = ({ pictures, alt }) => {
 
       {pictures.length > 1 && (
         <nav>
-
           <i className="fa-solid fa-chevron-left"
             onClick={goPrevious}
           ></i>
@@ -38,7 +37,7 @@ const Carousel = ({ pictures, alt }) => {
         </nav>
 
       )}
-      
+
     </figure>
   )
 }

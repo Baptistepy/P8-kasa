@@ -26,11 +26,16 @@
 
       label {
         border-radius: var(--radius-md);
-        padding: 5px 10px;
+        padding: 5px 15px;
         background-color: var(--primary);
         color: var(--white);
       }
     }
 
+    & + figure {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
   }
 }
