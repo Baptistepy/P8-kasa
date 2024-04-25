@@ -42,6 +42,7 @@ const Housing = () => {
             )}
           </ul>
         </header>
+        
         <figure>
           <Rating rating={card.rating} />
 
@@ -52,9 +53,8 @@ const Housing = () => {
         </figure>
       </section>
       
-      <footer>
+      <section>
         <Collapse
-          title={data.text}
           content={card.description}
         />
 
@@ -62,7 +62,7 @@ const Housing = () => {
           title={data.list}
           content={card.equipments}
         />
-      </footer>
+      </section>
     </main>
   );
 }
