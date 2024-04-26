@@ -55,13 +55,13 @@ const Housing = () => {
       
       <footer>
         <Collapse
-          title={data.text}
-          content={data.description}
+          title="Description"
+          content={card.description}
         />
 
         <Collapse
-          title={data.list}
-          content={data.equipments}
+          title="Équipements"
+          content={card.equipments}
         />
       </footer>
 

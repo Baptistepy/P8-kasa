@@ -12,12 +12,16 @@
     font-weight: 500;
     color: var(--primary);
   }
-
+  footer {
+    background-color: white;
+    padding: 0;
+  }
   header {
 
     & > p {
       font-weight: 600;
     }
+
     & > ul {
       display: flex;
       flex-flow: wrap;
@@ -36,6 +40,10 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+    }
+
+    & > footer {
+      background-color: white;
     }
   }
 
