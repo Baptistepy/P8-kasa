@@ -60,6 +60,11 @@
       display: block;
       bottom: 20px;
       left: calc(50% - 12px);
+      color: black;
     }
+  }
+
+  nav {
+    margin: 0;
   }
 }

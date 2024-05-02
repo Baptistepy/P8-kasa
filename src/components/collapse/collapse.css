@@ -30,8 +30,6 @@
   }
 
   ul {
-    display: flex;
-    text-align: justify;
     overflow: hidden;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -43,6 +41,8 @@
 
   .translate {
     animation: translate 1s ease-in-out;
+    color: black;
+    padding-top: 10px;
   }
 
 }
@@ -55,5 +55,6 @@
 
   .collapse {
     margin: var(--margin-md);
+    width: 100%;
   }
 }
