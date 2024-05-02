@@ -64,7 +64,7 @@
 
     & > footer {
       display: flex;
-      gap: 20px;
+      gap: 80px;
       background-color: white;
       padding: 0;
     }

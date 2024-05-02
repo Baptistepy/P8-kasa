@@ -11,11 +11,13 @@
 }
 
 .collapse {
+width: 100%;
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     border: 2px var(--primary) solid; 
     border-radius: var(--radius-sm);
     background-color: var(--primary);
@@ -30,11 +32,22 @@
   }
 
   ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
     overflow: hidden;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin: -3px 0 0;
+    border-radius: var(--radius-sm);
+    padding: 10px;
+    font-size: 0.8rem;
+    text-align: justify;
+    background-color: var(--grey);
+
+    @media (min-width: 768px) {
+      font-size: 1.1rem;
+    }
   }
-  
+
   .animation {
     animation: rotate 1s ease-in-out;
   }
@@ -54,7 +67,6 @@
 @media (min-width: 768px) {
 
   .collapse {
-    margin: var(--margin-md);
     width: 100%;
   }
 }
