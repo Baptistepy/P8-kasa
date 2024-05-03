@@ -61,8 +61,7 @@ const Housing = () => {
 
         <Collapse
           title="Équipements"
-          content={card.equipments
-            .map((item) => <li key={item}>{item}</li>)}
+          content={card.equipments}
         />
       </footer>
 
